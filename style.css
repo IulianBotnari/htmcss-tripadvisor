@@ -109,18 +109,68 @@ input[type="text"]{
 }
 
 .Experience{
-    position: relative;
-    border: 1px solid black;
+    /* position: relative; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 
-.image, .text_under_image{
+.image {
     display: inline-block;
-    width: calc(100%/4);
+    width: calc(100%/4 - 0.4rem);
     height: 20rem;
     border: 1px solid black;
     float: left;
+    margin: .2rem;
+
+}
+
+.text_under_image{
+    display: inline-block;
+    width: calc(100%/4 - 0.4rem);
+    float: left;
+    margin: .2rem;
+
 }
 
 
+.description_text{
+    font-weight: bold;
+}
 
+.text_price{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
 
+.ukfly{
+    border: 2px solid lightgray;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: .2rem;
+}
+
+.lava{
+    background-image: url(./img/the\ lava\ tunnel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cappadocia{
+    background-image: url(./img/cappadocia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.surf{
+    background-image: url(./img/surf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.azteca{
+    background-image: url(./img/azteca.jpg);
+    background-size: cover;
+    background-position: center;
+}
