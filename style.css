@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenitore{
+    width: 80%;
+    margin:auto;
+    position: relative;
+}
+
+img{
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left:50%;
+    transform: translateX(-50%);
+}
+
