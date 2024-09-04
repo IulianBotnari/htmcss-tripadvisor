@@ -5,7 +5,7 @@
 }
 
 .contenitore{
-    width: 80%;
+    width: 60%;
     margin:auto;
     position: relative;
 }
@@ -28,6 +28,7 @@ img{
     width: 100%;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    position: relative;
 
 }
 
@@ -36,13 +37,23 @@ img{
     margin-right: 1rem;
     border-radius: 0.8rem;
     padding: 0.25rem;
-    
+    position: relative;
+    top: .7rem;
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 1rem;
 }
 
 .text{
     display: inline-block;
     font-size: 1.5rem;
     font-weight: bolder;
+    position: absolute;
+    left: 3rem;
+    top: 0.7rem;
 }
 
 .button{
@@ -50,6 +61,7 @@ img{
     font-weight: bold;
     border: 0;
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.089);
+
 }
 
 #SingIn{
@@ -69,6 +81,7 @@ nav{
     border-radius: 1rem;
     margin-left: 0.3rem;
     position: relative;
+    box-shadow: -1rem -1rem .5rem 0rem rgba(176, 157, 185, 0.288) inset;
 }
 
 .option_text{
@@ -80,8 +93,13 @@ nav{
     display: inline-block;
 }
 
+.icon{
+  position: absolute;
+  top: .7rem;
+  left: 8rem;
+}
+
 .scr{
-    border: 1px solid black;
     height: 16rem;
     width: 100%;
     margin-top: 1.5rem;
@@ -89,6 +107,8 @@ nav{
     text-align: center;
     background-image: url(./img/Vacation.jpg);
     background-size: cover;
+    box-shadow: .3rem .3rem .3rem .3rem grey;
+    border-radius: 5rem;
 
 }
 
@@ -101,7 +121,9 @@ input{
     top: 50%;
     right: 50%;
     transform: translateX(50%) 
-    translateY(-50%)
+    translateY(-50%);
+    border: 0.8rem solid rgba(19, 2, 2, 0.041);
+    
 }
 
 input[type="text"]{
@@ -120,9 +142,10 @@ input[type="text"]{
     display: inline-block;
     width: calc(100%/4 - 0.4rem);
     height: 20rem;
-    border: 1px solid black;
     float: left;
     margin: .2rem;
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem black;
 
 }
 
@@ -174,3 +197,11 @@ input[type="text"]{
     background-size: cover;
     background-position: center;
 }
+
+.dot {
+    height: .6rem;
+    width: .6rem;
+    background-color:green;
+    border-radius: 50%;
+    display: inline-block;
+  }
