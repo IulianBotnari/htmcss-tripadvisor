@@ -10,11 +10,53 @@
     position: relative;
 }
 
+.head::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+ 
 img{
-    height: 80px;
-    position: absolute;
+    height: 4rem;
+    position: relative;
     top: 0;
     left:50%;
     transform: translateX(-50%);
 }
+
+.head{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+#SingIn, .button{
+    float: right;
+    margin-right: 1rem;
+    border-radius: 0.8rem;
+    padding: 0.25rem;
+    
+}
+
+.text{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.button{
+    background-color: white;
+    font-weight: bold;
+    border: 0;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.089);
+}
+
+#SingIn{
+    color: white;
+    background-color: black;
+}
+
+
+
 
