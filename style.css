@@ -108,5 +108,19 @@ input[type="text"]{
     text-align: center;
 }
 
+.Experience{
+    position: relative;
+    border: 1px solid black;
+}
+
+.image, .text_under_image{
+    display: inline-block;
+    width: calc(100%/4);
+    height: 20rem;
+    border: 1px solid black;
+    float: left;
+}
+
+
 
 
