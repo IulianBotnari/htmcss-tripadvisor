@@ -26,8 +26,8 @@ img{
 
 .head{
     width: 100%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -76,10 +76,37 @@ nav{
     top:.7rem;
     left: 1rem;
     font-weight: bold;
-    font-size: .85rem;
+    font-size: 0.85rem;
     display: inline-block;
 }
 
+.scr{
+    border: 1px solid black;
+    height: 16rem;
+    width: 100%;
+    margin-top: 1.5rem;
+    position: relative;
+    text-align: center;
+    background-image: url(./img/Vacation.jpg);
+    background-size: cover;
+
+}
+
+
+input{
+    height: 3rem;
+    width: 50%;
+    border-radius: 5rem;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) 
+    translateY(-50%)
+}
+
+input[type="text"]{
+    text-align: center;
+}
 
 
 
